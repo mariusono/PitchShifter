@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PitchShifter_Rev2 - Standalone Plugin", "PitchShifter_Rev2_StandalonePlugin.vcxproj", "{51CFC972-55D4-1B25-748E-2C26A2564D5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0} = {8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PitchShifter_Rev2 - VST3", "PitchShifter_Rev2_VST3.vcxproj", "{022BEA53-9D94-D4B6-B61D-3B1EAD4CD629}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0} = {8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PitchShifter_Rev2 - Shared Code", "PitchShifter_Rev2_SharedCode.vcxproj", "{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022BEA53-9D94-D4B6-B61D-3B1EAD4CD629}.Debug|x64.ActiveCfg = Debug|x64
+		{022BEA53-9D94-D4B6-B61D-3B1EAD4CD629}.Debug|x64.Build.0 = Debug|x64
+		{022BEA53-9D94-D4B6-B61D-3B1EAD4CD629}.Release|x64.ActiveCfg = Release|x64
+		{022BEA53-9D94-D4B6-B61D-3B1EAD4CD629}.Release|x64.Build.0 = Release|x64
+		{51CFC972-55D4-1B25-748E-2C26A2564D5D}.Debug|x64.ActiveCfg = Debug|x64
+		{51CFC972-55D4-1B25-748E-2C26A2564D5D}.Debug|x64.Build.0 = Debug|x64
+		{51CFC972-55D4-1B25-748E-2C26A2564D5D}.Release|x64.ActiveCfg = Release|x64
+		{51CFC972-55D4-1B25-748E-2C26A2564D5D}.Release|x64.Build.0 = Release|x64
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}.Debug|x64.ActiveCfg = Debug|x64
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}.Debug|x64.Build.0 = Debug|x64
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}.Release|x64.ActiveCfg = Release|x64
+		{8EA1F64E-7091-E03A-0DFF-78DBEAEA29E0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
